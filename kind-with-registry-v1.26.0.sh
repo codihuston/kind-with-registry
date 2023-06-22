@@ -12,7 +12,7 @@ fi
 
 # create a cluster with the local registry enabled in containerd
 cat <<EOF | kind create cluster \
-  --image=kindest/node:v1.26.0@sha256:3264cbae4b80c241743d12644b2506fff13dce07fcadf29079c1d06a47b399dd \
+  --image=kindest/node:v1.26.0@sha256:26ae311549359a62de298e6a99daff1b5cb4806161ade7816b82f23ab0489622 \
   --config=-
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
